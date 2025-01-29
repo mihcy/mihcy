@@ -1,0 +1,63 @@
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --nuetral: #b0b0b0;
+}
+
+body {
+  overflow: hidden;
+  background: var(--background);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+  font-style: normal;
+  color: var(--foreground);
+}
+
+.left, .right {
+  flex: 1;
+  padding: 20px;
+}
+
+p {
+  align-self: left;
+  color: var(--foreground);
+}
+
+a {
+
+  color: var(--foreground);
+}
+
+.social-icon {
+  font-size: 20px;
+  color: var(--foreground);
+  text-decoration: none;
+  transition: color 0.2s;
+  margin: 0 10px;
+}
+
+.social-icon:hover {
+  color: var(--nuetral);
+}
+
+.back {
+  color: var(--foreground);
+  text-align: center;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
