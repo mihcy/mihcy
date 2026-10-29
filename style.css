@@ -15,7 +15,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-family: Courier, monospace;
+  font-family: arial, sans-serif;
   font-size: smaller;
   font-style: normal;
   color: var(--foreground);
@@ -33,7 +33,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: left;
-  font-family: Courier, monospace;
+  font-family: arial, sans-serif;
   font-size: smaller;
   font-style: normal;
   color: var(--foreground);
